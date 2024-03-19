@@ -1,0 +1,868 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conatiner {
+    background-color: white !important;
+}
+.navbar-toggler {
+    color: white;
+    background-color:#81c408 !important;
+}
+a.navbar-brand h1{
+    color: #81c408 !important;
+    font-size: 2.5rem;
+    font-family: 'Montserrat';
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+a.nav-link {
+    margin-top: 10px;
+    color: #747d88 !important;
+}
+
+a.nav-link:hover {
+    color: #81c408 !important;
+}
+
+li.nav-item {
+    padding: 23px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+#fruits {
+    background-image: url("/images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card img {
+    border: 1px solid #ffb524;
+    width: 600;
+    border-radius: 10px;
+    background-color: #ffb524;
+}
+
+.card-title {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h1.card-title {
+    color: white;
+}
+button.btn-page.dropdown-toggle.bg-remove {
+    margin: 16px 0px 0px 0px;
+}
+.dropdown .bg-remove {
+    border: none;
+    border-color: transparent;
+    background-color: transparent;
+    color: #747d88;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.dropdown .bg-remove:hover {
+    color: #81c408;
+}
+.content p {
+    color: #ffb524 !important;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.content h1 {
+    color: #81c408;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+.search-bar {
+    border: 2px solid #ffb524;
+    width: 78%;
+    border-radius: 50px;
+    display: flex;
+}
+
+input[type="text"] {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    padding: 17px;
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+button.btn {
+    border: 2px solid #ffb524;
+    border-radius: 71px;
+    padding: 10px 25px;
+    color: white;
+    background-color: #81c408;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+.search-bar .btn:hover {
+    background-color: #ffb524;
+    color: white;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color:#ffb524 !important;
+    padding: 8px 22px !important;
+    border-radius: 25px !important;
+}
+.nav-pills .nav-link.active {
+    color: white !important;
+}
+.navbutton {
+    background-color:#f4f6f8 !important;
+    color: #747d88 !important;
+    padding: 8px 22px !important;
+    border-radius: 25px !important;
+    text-transform: capitalize !important;
+}
+
+.free-ship {
+    border: 2px solid #f4f6f8;
+    border-radius: 10px;
+    background-color: #f4f6f8 !important;
+    text-align: center;
+}
+
+.free {
+    height: 135px;
+    width: 135px;
+    background-color: #ffb524;
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    position: relative;
+}
+
+.free::after {
+    content: "";
+    height: 35px;
+    width: 35px;
+    background-color: #ffb524;
+    position: absolute;
+    bottom: -10px;
+    transform: rotate(45deg);
+    left: 39%;
+}
+
+.icon {
+    margin-top: 15px;
+    color: white;
+    font-size: 60px;
+}
+
+.free-content {
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+
+.free-content h5 {
+    color: #45595b;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.free-content p {
+    color: #747d88;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.mb-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span.our-organic-product {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 1.2;
+    color: #45595b;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+
+.fruit-items {
+    border: 1px solid #ffb524;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.fruit-image img {
+    width: 100%;
+}
+
+.fruit-content h4 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    color: #45595b;
+    text-transform: capitalize;
+    line-height: 1.5;
+}
+
+.fruit-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #747d88;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.rate p {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.btn1 {
+    border: 1px solid #ffb524;
+    background-color: white;
+    color: #81c408;
+    border-radius: 30px;
+    padding: 5px 25px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.btn1:hover {
+    background-color: #ffb524;
+    color: white;
+}
+
+.lock {
+    margin-right: 10px;
+}
+
+.fresh-fruit-image img {
+    width: 100%;
+    padding: 5px;
+}
+.fruit-image{
+    overflow: hidden;
+}
+.fruit-image img{
+    width:100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+     z-index: 1;
+     position: relative;
+}
+.fruit-image img:hover{
+    -webkit-transform: scale(1.3);
+     transform: scale(1.3);
+     z-index:2;
+     
+}
+
+.fresh-fruit-square {
+    padding: 65px;
+    background-color: #ffb524;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.fresh-fruit-border {
+    border: 1px solid #ffb524;
+    border-radius: 12px;
+}
+
+.fresh-fruit-image {
+    position: relative;
+}
+
+.discount-fruit.text-white {
+    position: absolute;
+    background-color: #81c408;
+    bottom: 65px;
+    width: 250px;
+    height: 130px;
+    left: 19%;
+    padding: 25px;
+    text-align: center;
+    border-radius: 14px;
+    font-family: 'Montserrat';
+}
+
+.discount-fruit h5 {
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Montserrat';
+}
+
+.discount-fruit h3 {
+    color: #45595b;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Montserrat';
+}
+
+.container-fluid.fresh-fruit-store {
+    padding: 20px;
+}
+
+.fresh-fruit-square-1 {
+    background-color: #45595b;
+}
+
+.discount-fruit.tasty-fruit.text-white {
+    background-color: white;
+}
+
+.tasty-fruit h5 {
+    color: #81c408;
+}
+
+.fresh-fruit-square.fresh-fruit-square-2 {
+    background-color: #81c408;
+}
+
+.discount-fruit.exotic.vegetable.text-white {
+    background-color: #ffb524;
+}
+
+h1.text-white {
+    padding-top: 80px;
+    padding-top: 80px;
+    letter-spacing: 1.1px;
+    font-size: 65px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+}
+section#fruit-store\ py-5\ mt-5 {
+    margin: 80px 0px;
+}
+
+.fresh-fruit-store {
+    background-color: #ffb524;
+}
+
+.our-fruit-store p {
+    font-size: 4rem;
+    color: #45595b;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+}
+
+p.fresh-content {
+    font-size: 16px;
+    padding: 20px 0px;
+    font-family: 'Montserrat';
+}
+
+button.btn.buy-btn {
+    background-color: #ffb524;
+    border-color: white;
+    padding: 17px 47px;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 13px;
+    font-family: 'Montserrat';
+    
+}
+
+button.btn.buy-btn:hover {
+    background-color: #81c408;
+}
+
+.apple-image {
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    background-color: white;
+    border-radius: 100px;
+    top: 0;
+}
+
+.circle-heading {
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.circle-heading h1 {
+    font-size: 100px;
+    color: #45595b;
+    font-weight: 700;
+}
+
+.circle-content {
+    margin-top: 24px;
+}
+
+span.dolar {
+    font-size: 40px;
+    font-weight: 700;
+    color: #45595b;
+}
+
+span.kg {
+    font-weight: 500;
+    color: #45595b;
+}
+
+#best-seller {
+    margin: 80px 0px;
+}
+
+.best-products h1 {
+    font-size: 56px;
+    color: #45595b;
+    line-height: 1.2;
+    font-weight: 800;
+    font-family: 'Montserrat';
+}
+
+.best-products p {
+    width: 41%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.col-md-4.organic-fruits {
+    background-color: #f4f6f8;
+    margin: 10px 10px;
+    max-width: 100%;
+    width: 31.8%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.tomatoas {
+    margin: 20px 0px;
+}
+.organic-image img.rounded-circle {
+    max-width: 100%;
+    height: 170px;
+}
+
+.organic-tomato h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #45595b;
+    margin: 0px;
+    padding: 5px 0px;
+    font-family: 'Montserrat';
+}
+
+.org-icon {
+    color: #81c408;
+    font-weight: 900;
+}
+
+span.dollar {
+    font-size: 20px;
+    font-weight: 600;
+    color: #45595b;
+    padding: 10px 0px;
+}
+
+.organic-icon {
+    padding: 8px 0px;
+}
+
+.add-to-cart.organic-cart {
+    padding: 15px 0px;
+}
+
+.tomato-image img {
+    width: 100%;
+}
+.tomato-image{
+    overflow: hidden;
+}
+.tomato-image img{
+    width:100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+     transition: .3s ease-in-out;
+     z-index: 1;
+     position: relative;
+}
+.tomato-image img:hover{
+    -webkit-transform: scale(1.3);
+     transform: scale(1.3);
+     z-index:2;
+     
+}
+
+.customer-service.text-center {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+i.fa.fa-users.user-contact {
+    font-size: 60px;
+    margin-bottom: 25px;
+    font-weight: 900;
+    color: #ffb524;
+}
+
+.customer-service h4 {
+    font-size: 28px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #81c408;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+section#testimonial {
+    padding: 80px 0px;
+}
+
+.customer-service h1 {
+    font-size: 56px;
+    line-height: 1.2;
+    color: #45595b;
+    font-weight: 600;
+}
+
+.user-service {
+    background-color: rgb(244, 246, 248);
+    border-radius: 10px;
+}
+.testimonial-heading h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height:1.2;
+    color:#81c408;
+    font-family: 'Montserrat';
+}
+.testimonial-heading h1{
+    font-size: 50px;
+    color: #45595b;
+    font-weight: 800;
+    line-height:1.2;
+    font-family: 'Montserrat';
+}
+.client-1 p{
+    font-family: 'Montserrat';
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background-color:#ffb524;
+    margin:30px 0px;
+}
+.client-image img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.client-3.d-flex {
+    gap: 30px;
+}
+.client-content h4{
+    font-size: 24px;
+    color: #45595b;
+    line-height: 1.2;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.client-content p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+i.fa.fa-star.org-icon {
+    font-size: 20px;
+}
+.org-icon-1{
+    color: #45595b;
+}
+.client-testimonial {
+    border-radius: 10px;
+    background-color:#f4f6f8;
+}
+i.fa.fa-quote-right {
+    font-size: 40px;
+    color:#ffb524;
+    margin-top: 28px;
+}
+.social-icon {
+    font-size: 19px;
+}
+.soc-icon{
+        border-radius: 25px;
+        border: 1px solid #ffb524;
+        background-color:#45595b;
+        font-size: 18px;
+        color: #ffb524;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        padding-top: 13px;
+    }
+    .soc-icon:hover{
+        color: black;
+        background-color: #ffb524;
+    }
+    section#footer {
+        background-color:#45595b;
+        margin-top:100px;
+        padding: 50px 0px;
+    }
+    .email-subscribe{ 
+            background-color: white;
+            border-radius: 50px;
+        }
+    .search-bar-1{
+        width:100%;
+        border: 2px solid #f4f6f8;
+        background-color: white;
+    }
+    button.btn.btn-1 {
+        border: 2px solid #81c408;
+        
+    }
+    button.btn.btn-1:hover{
+        border:2px solid #ffb524;
+        background-color: #ffb524;
+    }
+    .fruitables-content h1{
+        color:#81c408;
+        font-size: 40px;
+        font-weight: 600;
+        line-height:1.2;
+        margin:0px;
+        padding:0px;
+    }
+    .fruitables-content p{
+        color: #ffb524;
+        margin:0px;
+        padding:0px;
+    }
+    .footer-line {
+        width: 100%;
+        height: 1px;
+        background-color:#ffb524;
+        margin: 25px 0px;
+    }
+    button.btn-2 {
+        border-radius: 25px;
+        padding: 10px 30px;
+        border: 2px solid #ffb524;
+        color:#81c408;
+        line-height:1.2;
+        background-color: #45595b;
+    }
+    button.btn-2:hover{
+        background-color: #ffb524;
+        color:white;
+    }
+    .why-people h4{
+        font-size:24px;
+        color: white;
+    }
+    .why-people p{
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 35px;
+        width:85%;
+        padding:10px 0px;
+    }
+    .shop h4{
+        font-size:24px;
+        color: white;
+    }
+    .links{
+        display: block;
+        padding: 10px 0px 0px 0px;
+        font-size: 17px;
+        text-decoration: none;
+        color:rgba(255, 255, 255, 0.5);
+    }
+    .links:hover{
+        color: #ffb524;
+    }
+    .account h4{
+        font-size:24px;
+        color: white;
+    }
+    .contact h4{
+        font-size:24px;
+        color: white;
+        padding-bottom: 10px;
+    }
+    .contact p{
+        color:rgba(255, 255, 255, 0.5);
+    }
+    a.design-1 {
+        font-size: 20px;
+        line-height: 1.2;
+        text-decoration: none;
+        color: white;
+    }
+    @media only screen and (max-width: 768px){
+        .container{
+            overflow: hidden;
+        }
+        .content h1 {
+            font-size: 2.5rem;
+        }
+        .content {
+            padding: 10px;
+        }
+        .content p {
+            font-size: 2rem;
+            padding-bottom: 10px;
+        }
+        .search-container {
+            margin-bottom: 85px;
+        }
+        .search-bar {
+            width: 100%;
+        }
+        section#navbar {
+            margin: 15px 0px;
+        }
+        #fruits {
+            margin: 40px 0px;
+        }
+        a.navbar-brand {
+            font-size: 2rem;
+        }
+        .free-ship {
+            margin: 15px;
+        }
+        span.our-organic-product {
+            font-size: 33px;
+        }
+        .fruit-items {
+            margin: 15px;
+        }
+        section#tabs {
+            margin-bottom: 60px;
+        }
+        .fresh-fruit-border {
+            margin: 15px;
+        }
+        section#three-fruit {
+            margin: 80px 0px;
+        }
+        .apple-image img{
+            width:100%;
+        }
+        h1.text-white {
+            font-size: 38px;
+        }
+        .fresh-fruit-store {
+            padding: 15px;
+        }
+        .our-fruit-store p {
+            font-size: 2rem;
+        }
+        p.fresh-content {
+            font-size: 16px;
+        }
+        h1.text-white {
+            padding-top: 0px;
+        }
+        .apple-image {
+            margin-bottom: 50px;
+        }
+        .best-products h1 {
+            font-size: 39px;
+        }
+        .best-products p {
+            width: 100%;
+            padding: 15px;
+        }
+        .row.organic-row {
+            margin:15px;
+        }
+        .col-md-4.organic-fruits {
+            width: 95%;
+        }
+        .organic-tomato h5 {
+            font-size: 18px;
+        }
+        .tomatoas {
+            margin: 20px 15px;
+        }
+        .customer-service.text-center {
+            margin: 20px 0px;
+        }
+        .testimonial-heading h1 {
+            font-size: 40px;
+        }
+        .testimonial-heading h4 {
+            font-size: 25px;
+        }
+        .client-testimonial.p-4 {
+                margin: 0px 15px 20px 15px;
+        }
+        section#testimonial {
+            padding: 40px 0px;
+        }
+        section#footer {
+            padding: 0px 0px 50px 0px;
+        }
+        .fruitables-content {
+            padding: 0px 15px;
+        }
+        .fruitables-content p {
+            font-size: 24px;
+            padding: 15px 0px;
+        }
+        .email-subsrcibe {
+            margin: 25px 0px;
+        }
+        .why-people {
+            padding: 20px 15px;
+        }
+        .shop {
+            padding: 20px 15px;
+        }
+        .account {
+            padding: 20px 15px;
+        }
+        .contact {
+            padding: 20px 15px;
+        }
+        .social-icon {
+            text-align: left !important;
+            margin:15px;
+        }
+        }
+        
+
